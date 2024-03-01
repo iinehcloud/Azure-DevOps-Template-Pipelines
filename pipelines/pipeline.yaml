@@ -5,10 +5,10 @@ trigger: none
 pr: none
 
 variables:
-  backendServiceArm: 'tamopstf2'
-  backendAzureRmResourceGroupName: 'tamopstfstates'
-  backendAzureRmStorageAccountName: 'tfstatedevops'
-  backendAzureRmContainerName: 'azure-devops-template-pipelines'
+  backendServiceArm: 'sp1'
+  backendAzureRmResourceGroupName: 'tf-state-rg'
+  backendAzureRmStorageAccountName: 'tfstateeus'
+  backendAzureRmContainerName: 'tfstate'
   backendAzureRmKey: 'terraform.tfstate' 
   environment: production
 
